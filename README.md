@@ -78,6 +78,42 @@ Set of tools to manage automated machine learning experiments to perform:
 
 - __Efficiency:__ We are intensively working on more efficient model tuning on both the system and algorithm level. For example, we leverage early feedback to speedup the tuning procedure.
 
+```bash
+nnictl create --config /content/config.yml
+```
+
+
+<p align='center'>
+  <a href="#"><img src='https://github.com/mohd-faizy/Hyperparameter-Tuning-with-Microsoft-Network-Intelligence-Toolkit-NNI/blob/main/img_NNI/1.png'></a>
+</p>
+
+<p align='center'>
+  <a href="#"><img src='https://github.com/mohd-faizy/Hyperparameter-Tuning-with-Microsoft-Network-Intelligence-Toolkit-NNI/blob/main/img_NNI/2.png' width=750 height=500></a>
+</p>
+
+<p align='center'>
+  <a href="#"><img src='https://github.com/mohd-faizy/Hyperparameter-Tuning-with-Microsoft-Network-Intelligence-Toolkit-NNI/blob/main/img_NNI/3.png' width=750 height=400></a>
+</p>
+
+<p align='center'>
+  <a href="#"><img src='https://github.com/mohd-faizy/Hyperparameter-Tuning-with-Microsoft-Network-Intelligence-Toolkit-NNI/blob/main/img_NNI/4.png' width=750 height=400 ></a>
+</p>
+
+<p align='center'>
+  <a href="#"><img src='https://github.com/mohd-faizy/Hyperparameter-Tuning-with-Microsoft-Network-Intelligence-Toolkit-NNI/blob/main/img_NNI/5.png' width=750 height=400></a>
+</p>
+
+<p align='center'>
+  <a href="#"><img src='https://github.com/mohd-faizy/Hyperparameter-Tuning-with-Microsoft-Network-Intelligence-Toolkit-NNI/blob/main/img_NNI/6_Top100percent.png' width=750 height=400></a>
+</p>
+
+<p align='center'>
+  <a href="#"><img src='https://github.com/mohd-faizy/Hyperparameter-Tuning-with-Microsoft-Network-Intelligence-Toolkit-NNI/blob/main/img_NNI/7_Top50percent.png' width=750 height=500></a>
+</p>
+
+<p align='center'>
+  <a href="#"><img src='https://github.com/mohd-faizy/Hyperparameter-Tuning-with-Microsoft-Network-Intelligence-Toolkit-NNI/blob/main/img_NNI/8_Top20percent.png' width=750 height=400></a>
+</p>
 
 ### Connect with me:
 
