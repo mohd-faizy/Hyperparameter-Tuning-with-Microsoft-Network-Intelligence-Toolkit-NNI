@@ -1,10 +1,15 @@
+# Importing the Libraries
 import tensorflow as tf
 import nni
+
+# loading the MNIST dataset & performing the Normalization
 
 
 def load_dataset():
     (x_train, y_train), (x_test, y_test) = tf.keras.datasets.mnist.load_data()
     return (x_train/255., y_train), (x_test/255., y_test)
+
+# Creating the Sequential Model
 
 
 def create_model(num_units, dropout_rate, lr, activation):
@@ -21,6 +26,8 @@ def create_model(num_units, dropout_rate, lr, activation):
         metrics=["accuracy"]
     )
     return model
+
+# Defining the callbacks
 
 
 class ReportIntermediates(tf.keras.callbacks.Callback):
