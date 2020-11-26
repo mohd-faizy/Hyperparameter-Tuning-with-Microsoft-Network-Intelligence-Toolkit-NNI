@@ -70,6 +70,7 @@ Set of tools to manage automated machine learning experiments to perform:
 
 - **Feature Engineering**
 - **Hyperparameter Tuning**
+    - [01_Hyper-parameter Tuning NNI.py](https://github.com/mohd-faizy/Hyperparameter-Tuning-with-Microsoft-Network-Intelligence-Toolkit-NNI/blob/main/01_%5BHyper-parameter%20Tuning%5D%20NNI.py)
 - **Neural Architecture Search**
 - **Model Compression**
 
