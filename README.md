@@ -149,7 +149,7 @@ trial:
   codeDir: .
 ```
 
-#### :heavy_check_mark: In order to start the experiment we can use the `nnictl` and pass the `config.yml`
+#### :heavy_check_mark: To start the experiment use `nnictl` & pass the `config.yml` in the command line.
 
 ```bash
 nnictl create --config /content/config.yml
