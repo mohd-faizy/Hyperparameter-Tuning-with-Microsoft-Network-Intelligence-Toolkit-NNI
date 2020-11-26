@@ -56,15 +56,15 @@ powershell -ExecutionPolicy Bypass -file install.ps1
 
 ## :large_blue_circle: What is Hyperparameter Tuning?
 
-#### :large_blue_diamond: Hyperparameters
+#### :large_blue_circle: Hyperparameters
 
 - **Hyperparameters** are parameters that control the model training process (e.g. **learning rate, batch size**) • **Hyperparameters** are not learned from the model training process itself
 
-#### :large_blue_diamond: Hyperparameter Tuning
+#### :large_blue_circle: Hyperparameter Tuning
 
 - Finding hyperparameter values that **Optimize** one or more evaluation metrics (e.g. **Accuracy on a test set**).
 
-#### :large_blue_diamond: Neural Network Intelligence (NNI) Toolkit
+#### :large_blue_circle: Neural Network Intelligence (NNI) Toolkit
 
 Set of tools to manage automated machine learning experiments to perform:
 
@@ -73,11 +73,11 @@ Set of tools to manage automated machine learning experiments to perform:
 - **Neural Architecture Search**
 - **Model Compression**
 
-#### :large_blue_diamond: NNI supports:
+#### :large_blue_circle: NNI supports:
 
 - Most popular ML frameworks (**PyTorch, TensorFlow, MXNet** and more) • Local machines, remote servers, k8 clusters or cloud solutions.
 
-#### :large_blue_diamond: NNI has several appealing properties: ease-of-use, scalability, flexibility, and efficiency.
+#### :large_blue_circle: NNI has several appealing properties: ease-of-use, scalability, flexibility, and efficiency.
 
 :heavy_check_mark: **Ease-of-use:** NNI can be easily installed through python pip. Only several lines need to be added to your code in order to use NNI’s power. You can use both the commandline tool and WebUI to work with your experiments.
 
