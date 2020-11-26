@@ -1,4 +1,4 @@
-authorName: default
+authorName: mohd faziy
 experimentName: mnist
 trialConcurrency: 1
 maxExecDuration: 1h
