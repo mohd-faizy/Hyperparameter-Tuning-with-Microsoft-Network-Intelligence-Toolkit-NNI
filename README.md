@@ -169,6 +169,8 @@ nnictl create --config /content/config.yml
   <a href="#"><img src='https://github.com/mohd-faizy/Hyperparameter-Tuning-with-Microsoft-Network-Intelligence-Toolkit-NNI/blob/main/img_NNI/3.png' width=750 height=400></a>
 </p>
 
+### Intermediate Results
+
 <p align='center'>
   <a href="#"><img src='https://github.com/mohd-faizy/Hyperparameter-Tuning-with-Microsoft-Network-Intelligence-Toolkit-NNI/blob/main/img_NNI/4.png' width=750 height=400 ></a>
 </p>
@@ -177,13 +179,21 @@ nnictl create --config /content/config.yml
   <a href="#"><img src='https://github.com/mohd-faizy/Hyperparameter-Tuning-with-Microsoft-Network-Intelligence-Toolkit-NNI/blob/main/img_NNI/5.png' width=750 height=400></a>
 </p>
 
+### **Hyperparameter Visualization**
+
+#### :triangular_flag_on_post: **Top 100 percent**
+
 <p align='center'>
   <a href="#"><img src='https://github.com/mohd-faizy/Hyperparameter-Tuning-with-Microsoft-Network-Intelligence-Toolkit-NNI/blob/main/img_NNI/6_Top100percent.png' width=750 height=400></a>
 </p>
 
+#### :triangular_flag_on_post: **Top 50 percent**
+
 <p align='center'>
-  <a href="#"><img src='https://github.com/mohd-faizy/Hyperparameter-Tuning-with-Microsoft-Network-Intelligence-Toolkit-NNI/blob/main/img_NNI/7_Top50percent.png' width=750 height=500></a>
+  <a href="#"><img src='https://github.com/mohd-faizy/Hyperparameter-Tuning-with-Microsoft-Network-Intelligence-Toolkit-NNI/blob/main/img_NNI/7_Top50percent.png' width=750 height=400></a>
 </p>
+
+#### :triangular_flag_on_post: **Top 20 percent**
 
 <p align='center'>
   <a href="#"><img src='https://github.com/mohd-faizy/Hyperparameter-Tuning-with-Microsoft-Network-Intelligence-Toolkit-NNI/blob/main/img_NNI/8_Top20percent.png' width=750 height=400></a>
