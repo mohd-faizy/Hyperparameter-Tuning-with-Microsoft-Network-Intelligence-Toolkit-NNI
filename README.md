@@ -54,17 +54,17 @@ cd nni
 powershell -ExecutionPolicy Bypass -file install.ps1
 ```
 
-## What is Hyperparameter Tuning?
+## :large_blue_circle: What is Hyperparameter Tuning?
 
-#### Hyperparameters
+#### :large_blue_diamond: Hyperparameters
 
 - **Hyperparameters** are parameters that control the model training process (e.g. **learning rate, batch size**) • **Hyperparameters** are not learned from the model training process itself
 
-#### Hyperparameter Tuning
+#### :large_blue_diamond: Hyperparameter Tuning
 
 - Finding hyperparameter values that **Optimize** one or more evaluation metrics (e.g. **Accuracy on a test set**).
 
-#### Neural Network Intelligence (NNI) Toolkit
+#### :large_blue_diamond: Neural Network Intelligence (NNI) Toolkit
 
 Set of tools to manage automated machine learning experiments to perform:
 
@@ -73,25 +73,25 @@ Set of tools to manage automated machine learning experiments to perform:
 - **Neural Architecture Search**
 - **Model Compression**
 
-#### NNI supports:
+#### :large_blue_diamond: NNI supports:
 
 - Most popular ML frameworks (**PyTorch, TensorFlow, MXNet** and more) • Local machines, remote servers, k8 clusters or cloud solutions.
 
-#### NNI has several appealing properties: ease-of-use, scalability, flexibility, and efficiency.
+#### :large_blue_diamond: NNI has several appealing properties: ease-of-use, scalability, flexibility, and efficiency.
 
-- **Ease-of-use:** NNI can be easily installed through python pip. Only several lines need to be added to your code in order to use NNI’s power. You can use both the commandline tool and WebUI to work with your experiments.
+:heavy_check_mark: **Ease-of-use:** NNI can be easily installed through python pip. Only several lines need to be added to your code in order to use NNI’s power. You can use both the commandline tool and WebUI to work with your experiments.
 
-- **Scalability:** Tuning hyperparameters or the neural architecture often demands a large number of computational resources, while NNI is designed to fully leverage different computation resources, such as remote machines, training platforms (e.g., OpenPAI, Kubernetes). Hundreds of trials could run in parallel by depending on the capacity of your configured training platforms.
+:heavy_check_mark: **Scalability:** Tuning hyperparameters or the neural architecture often demands a large number of computational resources, while NNI is designed to fully leverage different computation resources, such as remote machines, training platforms (e.g., OpenPAI, Kubernetes). Hundreds of trials could run in parallel by depending on the capacity of your configured training platforms.
 
-- **Flexibility:** Besides rich built-in algorithms, NNI allows users to customize various hyperparameter tuning algorithms, neural architecture search algorithms, early stopping algorithms, etc. Users can also extend NNI with more training platforms, such as virtual machines, kubernetes service on the cloud. Moreover, NNI can connect to external environments to tune special applications/models on them.
+:heavy_check_mark: **Flexibility:** Besides rich built-in algorithms, NNI allows users to customize various hyperparameter tuning algorithms, neural architecture search algorithms, early stopping algorithms, etc. Users can also extend NNI with more training platforms, such as virtual machines, kubernetes service on the cloud. Moreover, NNI can connect to external environments to tune special applications/models on them.
 
-- **Efficiency:** We are intensively working on more efficient model tuning on both the system and algorithm level. For example, we leverage early feedback to speedup the tuning procedure.
+:heavy_check_mark: **Efficiency:** We are intensively working on more efficient model tuning on both the system and algorithm level. For example, we leverage early feedback to speedup the tuning procedure.
 
-## Creating the Hyperparameter Search Space
+## :red_circle: Creating the Hyperparameter Search Space
 
-- In order to perform the hyper-parameter tunning, we first need to create the search space that describs the value range of each hyper-parameter.
+:white_check_mark: In order to perform the hyper-parameter tunning, we first need to create the search space that describs the value range of each hyper-parameter.
 
-- we can use the `.json` code to describe the range & this is the dictionary of all the hyper-parameter values that we want to run for our experiment.
+:white_check_mark: we can use the `.json` code to describe the range & this is the dictionary of all the hyper-parameter values that we want to run for our experiment.
 
 ```json
 {
@@ -122,9 +122,9 @@ Set of tools to manage automated machine learning experiments to perform:
 }
 ```
 
-## Creating and Running the Experiments
+## :red_circle: Setting up the configuration
 
-- The last thing we need to do in order to perform our experiment is to create another file called `config.yml` file & this will contain all the information regarding the configuration information of our experiment.
+:white_check_mark: The last thing we need to do in order to perform our experiment is to create another file called `config.yml` file & this will contain all the information regarding the configuration information of our experiment.
 
 ```yml
 authorName: mohd faizy
@@ -149,9 +149,13 @@ trial:
   codeDir: .
 ```
 
+#### :heavy_check_mark: In order to start the experiment we can use the `nnictl` and pass the `config.yml`
+
 ```bash
 nnictl create --config /content/config.yml
 ```
+
+#### Launching the NNI Dashboard
 
 <p align='center'>
   <a href="#"><img src='https://github.com/mohd-faizy/Hyperparameter-Tuning-with-Microsoft-Network-Intelligence-Toolkit-NNI/blob/main/img_NNI/1.png'></a>
