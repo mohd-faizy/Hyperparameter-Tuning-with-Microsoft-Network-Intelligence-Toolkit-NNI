@@ -145,7 +145,7 @@ tuner:
     #choice: maximize, minimize
     optimize_mode: maximize
 trial:
-  command: python3 main.py
+  command: python3 01_[Hyper-parameter Tuning] NNI.py
   codeDir: .
 ```
 
