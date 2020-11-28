@@ -155,7 +155,7 @@ trial:
 nnictl create --config /content/config.yml
 ```
 
-#### Launching the NNI Dashboard
+#### :white_square_button: Launching the NNI Dashboard
 
 <p align='center'>
   <a href="#"><img src='https://github.com/mohd-faizy/Hyperparameter-Tuning-with-Microsoft-Network-Intelligence-Toolkit-NNI/blob/main/img_NNI/1.png'></a>
@@ -169,7 +169,7 @@ nnictl create --config /content/config.yml
   <a href="#"><img src='https://github.com/mohd-faizy/Hyperparameter-Tuning-with-Microsoft-Network-Intelligence-Toolkit-NNI/blob/main/img_NNI/3.png' width=750 height=400></a>
 </p>
 
-### Intermediate Results
+### :white_square_button: Intermediate Results
 
 <p align='center'>
   <a href="#"><img src='https://github.com/mohd-faizy/Hyperparameter-Tuning-with-Microsoft-Network-Intelligence-Toolkit-NNI/blob/main/img_NNI/4.png' width=750 height=400 ></a>
@@ -179,7 +179,7 @@ nnictl create --config /content/config.yml
   <a href="#"><img src='https://github.com/mohd-faizy/Hyperparameter-Tuning-with-Microsoft-Network-Intelligence-Toolkit-NNI/blob/main/img_NNI/5.png' width=750 height=400></a>
 </p>
 
-### **Hyperparameter Visualization**
+### :white_square_button: **Hyperparameter Visualization**
 
 #### :triangular_flag_on_post: **Top 100 percent**
 
