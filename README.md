@@ -8,7 +8,7 @@
 [![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://opensource.com/resources/what-open-source)
 ![Stars GitHub](https://img.shields.io/github/stars/mohd-faizy/Hyperparameter-Tuning-with-Microsoft-Network-Intelligence-Toolkit-NNI)
 [![GitHub license](https://img.shields.io/github/license/mohd-faizy/Hyperparameter-Tuning-with-Microsoft-Network-Intelligence-Toolkit-NNI)](https://github.com/mohd-faizy/Hyperparameter-Tuning-with-Microsoft-Network-Intelligence-Toolkit-NNI/blob/main/LICENSE)
-![Size](https://img.shields.io/github/repo-size/mohd-faizy/Hyperparameter-Tuning-with-Microsoft-Network-Intelligence-Toolkit-NNIs)
+![Size](https://img.shields.io/github/repo-size/mohd-faizy/Hyperparameter-Tuning-with-Microsoft-Network-Intelligence-Toolkit-NNI)
 
 <strong> 
     <h1 align='center'>Hyperparameter Tuning with Microsoft Neural Network Intelligence Toolkit</h1> 
