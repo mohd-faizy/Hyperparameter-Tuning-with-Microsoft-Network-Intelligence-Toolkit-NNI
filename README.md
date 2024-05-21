@@ -15,14 +15,12 @@
     <h1 align='center'>Hyperparameter Tuning with Microsoft Neural Network Intelligence Toolkit</h1> 
 </strong>
 
-
-This repository demonstrates how to perform hyperparameter tuning using Microsoft’s NNI toolkit. NNI automates feature engineering, neural architecture search, hyperparameter tuning, and model compression for deep learning tasks.
-
 <p align='center'>
   <a href="#"><img src='https://github.com/mohd-faizy/Hyperparameter-Tuning-with-Microsoft-Network-Intelligence-Toolkit-NNI/blob/main/img_NNI/Proj_img.png'></a>
 </p>
 
-When you hear the words **“automated machine learning”**, what comes to your mind first? For me, it’s usually **H2O.ai’s Driverless AI**, or **Google’s Cloud AutoML**. Microsoft has also released an **Open-source automated machine learning toolkit** on GitHub that helps a user perform neural architecture search and hyperparameter tuning. Microsoft is calling the toolkit ‘Neural Network Intelligence (NNI)’.
+This repository demonstrates how to perform hyperparameter tuning using Microsoft’s NNI toolkit. NNI automates feature engineering, neural architecture search, hyperparameter tuning, and model compression for deep learning tasks.
+
 
 **The below diagram illustrates high-level Architecture of NNI**
 
@@ -138,12 +136,7 @@ trainingService:
    ```
 2. Observe the trial jobs, intermediate results, and final results.
 
-## ➤ Additional Resources
 
-- 👉[NNI Documentation](https://nni.readthedocs.io/en/latest/index.html)
-- 👉[NNI GitHub Repository](https://github.com/microsoft/nni)
-- 👉[NNI Experiment Config Reference](https://nni.readthedocs.io/en/latest/reference/experiment_config.html)
-- 👉[nnictl Commands](https://nni.readthedocs.io/en/latest/reference/nnictl.html)
 
 
 ## 📄Launching the NNI Dashboard
@@ -192,22 +185,37 @@ trainingService:
 </p>
 
 
+## 🍰 Contributing
+
+Contributions are welcome!
+
+## ➤ Additional Resources
+
+- 👉[NNI Documentation](https://nni.readthedocs.io/en/latest/index.html)
+- 👉[NNI GitHub Repository](https://github.com/microsoft/nni)
+- 👉[NNI Experiment Config Reference](https://nni.readthedocs.io/en/latest/reference/experiment_config.html)
+- 👉[nnictl Commands](https://nni.readthedocs.io/en/latest/reference/nnictl.html)
 
 
+## ⚖ ➤ License
 
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
 
-### Connect with me:
+## ❤️ Support
 
-[<img align="left" alt="codeSTACKr | Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />][twitter]
-[<img align="left" alt="codeSTACKr | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
-[<img align="left" alt="codeSTACKr.com" width="22px" src="https://raw.githubusercontent.com/iconic/open-iconic/master/svg/globe.svg" />][stackexchange ai]
+If you find this repository helpful, show your support by starring it! For questions or feedback, reach out on [Twitter(`X`)](https://twitter.com/F4izy).
 
-[twitter]: https://twitter.com/F4izy
-[linkedin]: https://www.linkedin.com/in/faizy-mohd-836573122/
-[stackexchange ai]: https://ai.stackexchange.com/users/36737/cypher
+#### $\color{skyblue}{\textbf{Connect with me:}}$
+
+➤ If you have questions or feedback, feel free to reach out!!!
+
+[<img align="left" src="https://cdn4.iconfinder.com/data/icons/social-media-icons-the-circle-set/48/twitter_circle-512.png" width="32px"/>][twitter]
+[<img align="left" src="https://cdn-icons-png.flaticon.com/512/145/145807.png" width="32px"/>][linkedin]
+[<img align="left" src="https://cdn-icons-png.flaticon.com/512/2626/2626299.png" width="32px"/>][Portfolio]
+
+[Portfolio]: https://ai.stackexchange.com/users/36737/faizy?tab=profile
 
 ---
 
-![Faizy's github stats](https://github-readme-stats.vercel.app/api?username=mohd-faizy&show_icons=true)
+<img src="https://github-readme-stats.vercel.app/api?username=mohd-faizy&show_icons=true" width=380px height=200px />
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=mohd-faizy&layout=compact)](https://github.com/mohd-faizy/github-readme-stats)
