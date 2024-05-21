@@ -145,51 +145,56 @@ trainingService:
 - 👉[NNI Experiment Config Reference](https://nni.readthedocs.io/en/latest/reference/experiment_config.html)
 - 👉[nnictl Commands](https://nni.readthedocs.io/en/latest/reference/nnictl.html)
 
-```
 
-#### :white_square_button: Launching the NNI Dashboard
+## 📄Launching the NNI Dashboard
 
+### **Hyperparameter Visualization**
 <p align='center'>
-  <a href="#"><img src='https://github.com/mohd-faizy/Hyperparameter-Tuning-with-Microsoft-Network-Intelligence-Toolkit-NNI/blob/main/img_NNI/1.png'></a>
+  <a href="#"><img src='https://github.com/mohd-faizy/Hyperparameter-Tuning-with-Microsoft-Network-Intelligence-Toolkit-NNI/blob/main/img_NNI/1.png?raw=true'></a>
 </p>
 
-<p align='center'>
-  <a href="#"><img src='https://github.com/mohd-faizy/Hyperparameter-Tuning-with-Microsoft-Network-Intelligence-Toolkit-NNI/blob/main/img_NNI/2.png' width=750 height=500></a>
-</p>
+#### **Top 100% percent**
 
 <p align='center'>
-  <a href="#"><img src='https://github.com/mohd-faizy/Hyperparameter-Tuning-with-Microsoft-Network-Intelligence-Toolkit-NNI/blob/main/img_NNI/3.png' width=750 height=400></a>
+  <a href="#"><img src='https://github.com/mohd-faizy/Hyperparameter-Tuning-with-Microsoft-Network-Intelligence-Toolkit-NNI/blob/main/img_NNI/2.png?raw=true'></a>
 </p>
 
-### :white_square_button: Intermediate Results
+#### **Top 20% percent**
 
 <p align='center'>
-  <a href="#"><img src='https://github.com/mohd-faizy/Hyperparameter-Tuning-with-Microsoft-Network-Intelligence-Toolkit-NNI/blob/main/img_NNI/4.png' width=750 height=400 ></a>
+  <a href="#"><img src='https://github.com/mohd-faizy/Hyperparameter-Tuning-with-Microsoft-Network-Intelligence-Toolkit-NNI/blob/main/img_NNI/3.png?raw=true'></a>
 </p>
+
+#### **Top 5% percent**
 
 <p align='center'>
-  <a href="#"><img src='https://github.com/mohd-faizy/Hyperparameter-Tuning-with-Microsoft-Network-Intelligence-Toolkit-NNI/blob/main/img_NNI/5.png' width=750 height=400></a>
+  <a href="#"><img src='https://github.com/mohd-faizy/Hyperparameter-Tuning-with-Microsoft-Network-Intelligence-Toolkit-NNI/blob/main/img_NNI/4.png?raw=true'></a>
 </p>
 
-### :white_square_button: **Hyperparameter Visualization**
+#### **Top 1% percent**
 
-#### :triangular_flag_on_post: **Top 100 percent**
+- ` default metric: 0.9793`
 
 <p align='center'>
-  <a href="#"><img src='https://github.com/mohd-faizy/Hyperparameter-Tuning-with-Microsoft-Network-Intelligence-Toolkit-NNI/blob/main/img_NNI/6_Top100percent.png' width=750 height=400></a>
+  <a href="#"><img src='https://github.com/mohd-faizy/Hyperparameter-Tuning-with-Microsoft-Network-Intelligence-Toolkit-NNI/blob/main/img_NNI/7.png?raw=true'></a>
 </p>
 
-#### :triangular_flag_on_post: **Top 50 percent**
+#### **Duration**
 
 <p align='center'>
-  <a href="#"><img src='https://github.com/mohd-faizy/Hyperparameter-Tuning-with-Microsoft-Network-Intelligence-Toolkit-NNI/blob/main/img_NNI/7_Top50percent.png' width=750 height=400></a>
+  <a href="#"><img src='https://github.com/mohd-faizy/Hyperparameter-Tuning-with-Microsoft-Network-Intelligence-Toolkit-NNI/blob/main/img_NNI/5.png?raw=true'></a>
 </p>
 
-#### :triangular_flag_on_post: **Top 20 percent**
+#### **Intermediate result**
 
 <p align='center'>
-  <a href="#"><img src='https://github.com/mohd-faizy/Hyperparameter-Tuning-with-Microsoft-Network-Intelligence-Toolkit-NNI/blob/main/img_NNI/8_Top20percent.png' width=750 height=400></a>
+  <a href="#"><img src='https://github.com/mohd-faizy/Hyperparameter-Tuning-with-Microsoft-Network-Intelligence-Toolkit-NNI/blob/main/img_NNI/6.png?raw=true'></a>
 </p>
+
+
+
+
+
 
 ### Connect with me:
 
