@@ -213,9 +213,10 @@ If you find this repository helpful, show your support by starring it! For quest
 [<img align="left" src="https://cdn-icons-png.flaticon.com/512/145/145807.png" width="32px"/>][linkedin]
 [<img align="left" src="https://cdn-icons-png.flaticon.com/512/2626/2626299.png" width="32px"/>][Portfolio]
 
+[twitter]: https://twitter.com/F4izy
+[linkedin]: https://www.linkedin.com/in/mohd-faizy/
 [Portfolio]: https://ai.stackexchange.com/users/36737/faizy?tab=profile
 
 ---
 
 <img src="https://github-readme-stats.vercel.app/api?username=mohd-faizy&show_icons=true" width=380px height=200px />
-
