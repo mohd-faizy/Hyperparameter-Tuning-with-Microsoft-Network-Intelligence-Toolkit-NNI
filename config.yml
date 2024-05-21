@@ -1,20 +1,14 @@
-authorName: mohd faziy
 experimentName: mnist
 trialConcurrency: 1
-maxExecDuration: 1h
-maxTrialNum: 10
-#choice: local, remote, pai
-trainingServicePlatform: local
-#choice: true, false
+maxExperimentDuration: 1h
+maxTrialNumber: 10
+searchSpaceFile: search_space.json
 useAnnotation: false
-searchSpacePath: search_space.json
+trialCommand: python main.py
+trialCodeDirectory: .
 tuner:
-  #choice: TPE, Random, Anneal, Evolution, BatchTuner, MetisTuner
-  #SMAC (SMAC should be installed through nnictl)
-  builtinTunerName: TPE
+  name: TPE
   classArgs:
-    #choice: maximize, minimize
     optimize_mode: maximize
-trial:
-  command: python3 main.py
-  codeDir: .
+trainingService:
+  platform: local
