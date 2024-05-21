@@ -22,7 +22,7 @@
 This repository demonstrates how to perform hyperparameter tuning using Microsoft’s NNI toolkit. NNI automates feature engineering, neural architecture search, hyperparameter tuning, and model compression for deep learning tasks.
 
 
-**The below diagram illustrates high-level Architecture of NNI**
+#### **The below diagram illustrates high-level Architecture of NNI**
 
 <p align='center'>
   <a href="#"><img src='https://github.com/mohd-faizy/Hyperparameter-Tuning-with-Microsoft-Network-Intelligence-Toolkit-NNI/blob/main/img_NNI/0_high-level%20architecture%20of%20NNI.png' width = 700 height = 400></a>
