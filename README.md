@@ -28,14 +28,14 @@ This repository demonstrates how to perform hyperparameter tuning using Microsof
   <a href="#"><img src='https://github.com/mohd-faizy/Hyperparameter-Tuning-with-Microsoft-Network-Intelligence-Toolkit-NNI/blob/main/img_NNI/0_high-level%20architecture%20of%20NNI.png' width = 700 height = 400></a>
 </p>
 
-## ➤ Prerequisites
+## 🌱 ➤ Prerequisites
 
 - NNI requires `Python >= 3.7`. It is tested and supported on `Ubuntu >= 18.04`, `Windows 10 >= 21H2`, and `macOS >= 11`
 - Pip (Python package manager)
 
-## ➤ Setup Instructions
+## 👁️ ➤ Setup Instructions
 
-### 🟢 Create a Virtual Environment
+### 👉 Create a Virtual Environment
 
 1. Open your terminal or command prompt.
 2. Clone the repository `git clone https://github.com/mohd-faizy/Hyperparameter-Tuning-with-Microsoft-Network-Intelligence-Toolkit-NNI.git`
@@ -47,7 +47,7 @@ This repository demonstrates how to perform hyperparameter tuning using Microsof
    python -m venv venv
    ```
 
-### 🟢 Activate the Virtual Environment
+### 👉 Activate the Virtual Environment
 
 - On Windows:
 
@@ -61,7 +61,7 @@ This repository demonstrates how to perform hyperparameter tuning using Microsof
    source ./venv/bin/activate
    ```
 
-### 🟢 Install Dependencies
+### 👉 Install Dependencies
 
 ```sh
 pip install -r requirements.txt
@@ -73,7 +73,7 @@ pip install -r requirements.txt
    1. In order to perform the hyper-parameter tunning, we first need to create the **search space** that describs the value range of each hyper-parameter.
    2. we can use the `.json` code to describe the range & this is the dictionary of all the hyper-parameter values that we want to run for our experiment.
 
-`search_space.json`
+🔸`search_space.json`
 ```json
 {
   "dropout_rate": {
@@ -101,7 +101,7 @@ pip install -r requirements.txt
 
 2. Then we need to create another file called `config.yml` & which contain all the information regarding the configuration information of our experiment.
    
-`config.yml`
+🔸`config.yml`
 
 ```yml
 experimentName: mnist
@@ -121,12 +121,13 @@ trainingService:
 ```
 
 3. Then at last we need to Execute the following command to start the NNI experiment:
-
+   
+   👇
    ```sh
    nnictl create --config config.yml    
    ```
 
-## ➤ Monitor the Experiment
+## 🛠️ Monitor the Experiment
 
 1. Open the NNI dashboard in your web browser (usually at <http://localhost:8080>).
    ```
@@ -139,32 +140,32 @@ trainingService:
 
 
 
-## 📄Launching the NNI Dashboard
+## 📄 ➤ Launching the NNI Dashboard
 
 ### **Hyperparameter Visualization**
 <p align='center'>
   <a href="#"><img src='https://github.com/mohd-faizy/Hyperparameter-Tuning-with-Microsoft-Network-Intelligence-Toolkit-NNI/blob/main/img_NNI/1.png?raw=true'></a>
 </p>
 
-#### **Top 100% percent**
+#### 🔸**Top 100% percent**🔸
 
 <p align='center'>
   <a href="#"><img src='https://github.com/mohd-faizy/Hyperparameter-Tuning-with-Microsoft-Network-Intelligence-Toolkit-NNI/blob/main/img_NNI/2.png?raw=true'></a>
 </p>
 
-#### **Top 20% percent**
+#### 🔸**Top 20% percent**🔸
 
 <p align='center'>
   <a href="#"><img src='https://github.com/mohd-faizy/Hyperparameter-Tuning-with-Microsoft-Network-Intelligence-Toolkit-NNI/blob/main/img_NNI/3.png?raw=true'></a>
 </p>
 
-#### **Top 5% percent**
+#### 🔸**Top 5% percent**🔸
 
 <p align='center'>
   <a href="#"><img src='https://github.com/mohd-faizy/Hyperparameter-Tuning-with-Microsoft-Network-Intelligence-Toolkit-NNI/blob/main/img_NNI/4.png?raw=true'></a>
 </p>
 
-#### **Top 1% percent**
+#### 🔸**Top 1% percent**🔸
 
 - ` default metric: 0.9793`
 
@@ -172,24 +173,24 @@ trainingService:
   <a href="#"><img src='https://github.com/mohd-faizy/Hyperparameter-Tuning-with-Microsoft-Network-Intelligence-Toolkit-NNI/blob/main/img_NNI/7.png?raw=true'></a>
 </p>
 
-#### **Duration**
+#### 🔸**Duration**🔸
 
 <p align='center'>
   <a href="#"><img src='https://github.com/mohd-faizy/Hyperparameter-Tuning-with-Microsoft-Network-Intelligence-Toolkit-NNI/blob/main/img_NNI/5.png?raw=true'></a>
 </p>
 
-#### **Intermediate result**
+#### 🔸**Intermediate result**🔸
 
 <p align='center'>
   <a href="#"><img src='https://github.com/mohd-faizy/Hyperparameter-Tuning-with-Microsoft-Network-Intelligence-Toolkit-NNI/blob/main/img_NNI/6.png?raw=true'></a>
 </p>
 
 
-## 🍰 Contributing
+## 🍰 ➤ Contributing
 
 Contributions are welcome!
 
-## ➤ Additional Resources
+## 🗂️ ➤ Additional Resources
 
 - 👉[NNI Documentation](https://nni.readthedocs.io/en/latest/index.html)
 - 👉[NNI GitHub Repository](https://github.com/microsoft/nni)
@@ -201,13 +202,13 @@ Contributions are welcome!
 
 This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
 
-## ❤️ Support
+## ❤️ ➤ Support
 
 If you find this repository helpful, show your support by starring it! For questions or feedback, reach out on [Twitter(`X`)](https://twitter.com/F4izy).
 
 #### $\color{skyblue}{\textbf{Connect with me:}}$
 
-➤ If you have questions or feedback, feel free to reach out!!!
+🔃 ➤ If you have questions or feedback, feel free to reach out!!!
 
 [<img align="left" src="https://cdn4.iconfinder.com/data/icons/social-media-icons-the-circle-set/48/twitter_circle-512.png" width="32px"/>][twitter]
 [<img align="left" src="https://cdn-icons-png.flaticon.com/512/145/145807.png" width="32px"/>][linkedin]
